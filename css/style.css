@@ -100,14 +100,14 @@ main {
 }
 
 .container-cards {
-    padding: 50px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+   padding: 50px;
     justify-content: center; 
-    gap: 30px;               
-
+    gap: 30px;
     flex-wrap: wrap;
+    
+    <!-- Utilizei esses dois códigos após pesquisa com IA para alinhar os cards-->
+    display: grid;
+    grid-template-columns: 1fr 1fr;              
 }
 
 .card {
